@@ -4,7 +4,7 @@ pipeline {
     environment {
         PROJECT_ID = 'avian-chariot-450105-b7'  // GCP Project ID
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account')  // Service account credentials
-        DOCKER_HUB_CREDENTIALS_USR = 'afroz2022'  // Your Docker Hub username
+        DOCKER_HUB_CREDENTIALS_USR = 'afroz2022888888'  // Your Docker Hub username
         IMAGE_NAME = 'cloudrun'  // Docker image name
         DOCKER_HUB_CREDENTIALS_PSWD = credentials('docker-hub-password')  // Docker Hub password credentials
     }
